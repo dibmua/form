@@ -1,25 +1,189 @@
-<!DOCTYPE html>
-  <form id="contactForm" name="contactForm">
-    <h2>write us a message.</h2>
-    <div class="input-field">
-    <input type="text" name="name" id="name" required>
-     <div class="label-box">
-     <label for="name">Full Name</label>
-     </div>
-     </div>
-      <div class="input-field">
-     <input type="text" name="email" id="email" required>
-      <div class="label-box">
-    <label for="email">Email</label>
-    </div>
-    </div>
-    <div class="input-field">
-    <div class="label-box">
-    <label for="message">Your message</label>
-    </div>
-    <textarea name="message" id="message" required cols="22" rows="6" maxlength="220"></textarea>
-    </div>
-    <input type="submit" name="sendMess" value="Send message" class="contact-btn" id="submitium">
-  </form>
-                    
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Contact us - digerati.</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/master.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway|Rufina&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" type="image/jpg" href="/img/gen/favicon.ico"/>
+
+        <link href="css/form.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+       <header class="header-block" id="header">
+            <div class="header-top">
+                <div class="header-content">
+                    <div class="header-logo">
+                        <a href="/"><img src="img/gen/logo-full.svg" alt="digerati." width="auto" height="40"></a>
+                    </div>
+                    <input type="checkbox" class="nav-button" id="nav-button">
+                    <div class="nav-button-container">
+                        <label for="nav-button" class="nav-icon"></label>
+                    </div>
+                    <nav class="header-nav">
+                        <a href="/" class="head-nav-link">Home</a>
+                        <a href="/about" class="head-nav-link">About us</a>
+                        <a href="/menus" class="head-nav-link">Menus</a>
+<!--                        <a href="#" class="head-nav-link">Gallery</a>-->
+                        <a href="/contact" class="head-nav-link">Contact</a>
+                        <a href="#footer" class="head-nav-link">Find us</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <button onclick="topFunction()" id="to-top-btn" title="Go to top"></button>
+
+
+        <div class="cover-top" id="cover-t"></div>
+
+        <div class="contact-bg"></div>
+        <div class="page-content" id="content">
+            <img src="img/contact-img.jpg">
+            <div class="page-contain">
+                <div class="contact-decr">
+                    <h1 class="bigH">contact us.</h1>
+                    <p class="faded">Contact us if you got any questions, suggestions, feedbacks</p>
+                    <table>
+                        <tr class="faded">
+                            <th>Adress</th>
+                            <th>Email</th>
+                            <th>Phone</th>
+                        </tr>
+                        <tr>
+                            <td>1748 Rust Hills</td>
+                             <td>ourEmail@mail.com</td>
+                            <td>7050-180-5221</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm" name="contactForm">
+                        <h2>write us a message.</h2>
+                       <div class="input-field">
+                            <input type="text" name="name" id="name" required>
+
+                            <div class="label-box">
+                                <label for="name">Full Name</label>
+                            </div>
+                        </div>
+
+                        <div class="input-field">
+                            <input type="text" name="email" id="email" required>
+
+                            <div class="label-box">
+                                <label for="email">Email</label>
+                            </div>
+                        </div>
+
+                        <div class="input-field">
+                            <div class="label-box">
+                                <label for="message">Your message</label>
+                            </div>
+                            <textarea name="message" id="message" required cols="22" rows="6" maxlength="220"></textarea>
+                        </div>
+
+                        <input type="submit" name="sendMess" value="Send message" class="contact-btn" id="submitium">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="contact-bg"></div>
+
+        <div class="cover-bottom" id="cover-b"></div>
+
+        <footer id="footer">
+            <div class="footer-content">
+
+                <div class="footer-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29064.05775461514!2d30.710174090959487!3d50.37939058393804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c48cf047ac81%3A0x5c863fab764ed2c!2z0JHQvtGA0LjRgdC_0ZbQu9GM0YHRjNC60LA!5e0!3m2!1suk!2sua!4v1581770204762!5m2!1suk!2sua" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+
+                <div class="footer-contain">
+
+                    <div class="footer-logo">
+                        <img src="img/gen/logo-full.svg" alt="digerati." width="auto" height="40">
+                    </div>
+
+                    <div class="footer-info">
+                        <div class="footer-nav">
+                            <nav>
+                                <h1>Navigation</h1><br>
+                                <a href="#">Home</a><br>
+                                <a href="#">About us</a><br>
+                                <a href="#">Menus</a><br>
+                                <a href="#">Gallery</a><br>
+                                <a href="#">Find us</a><br>
+                                <a href="#">Contact</a><br>
+                            </nav>
+                        </div>
+                        <div class="footer-contact">
+                            <h1>Contact us</h1>
+                            <br>
+                            <br>
+                            <a href = "mailto:thehappynastia@gmail.com?subject = Feedback&body = Message" target="_blank" rel="noopener noreferrer">digeratiBakery@gmail.com</a>
+                            <p>7050-180-5221</p>
+                            <p>1748 Rust Hills<br>
+                                Middle Earth<br>
+                            </p>
+                        </div>
+                        <div class="footer-shedule">
+                            <h1>Opening hours</h1>
+                            <br>
+                            <br>
+                            <p>Weekdays<br>
+                            7am - 9pm<br>
+                            Weekends<br>
+                            9am - 8pm<br>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="footer-media">
+                            <nav>
+                                <a href="https://www.instagram.com/nastia_mosk/" class="media-icon inst-icon" target="_blank" rel="noopener noreferrer"></a>
+                                <a href="https://www.facebook.com/NastiaMosk" class="media-icon fb-icon" target="_blank" rel="noopener noreferrer"></a>
+                                <a href="https://linkedin.com/in/nastiamosk/" class="media-icon Ln-icon" target="_blank" rel="noopener noreferrer"></a>
+                            </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="Nastia_Copyright">
+                <cite class="copyright" ><a href="https://www.linkedin.com/in/nastiamosk/" target="_blank" rel="noopener noreferrer">© Nastia Moskalenko</a> Production. 2020. All rights reserved</cite>
+            </div>
+        </footer>
+    <script src="/scripter.js"></script>
+    
+
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+       <script>
+        
+           $('form').on('submit', (evt) => {
+               evt.preventDefault();
+               
+               const subject = $('#name').val().trim();
+               const email = $('#email').val().trim();
+               const text = $('#message').val().trim();
+               
+               const data = {
+                   email,
+                   subject,
+                   text
+               };
+                              
+               $.post('/email', data, function() {
+                    console.log('Server recieved our data')
+                    console.log(data);
+                    submitium.value = "Thank you"
+                    submitium.style.cssText = "background-color: #fff; color: #cab39b; transition: background-color 2s, color 0.5s;"
+                   $( 'form' ).each(function(){this.reset();});
+                   setTimeout(function(){
+                       submitium.value = "Send message"
+                       submitium.style.cssText = "background-color: #cab39b; color: #fff; transition: background-color 3s;color 2s"
+                   }, 4000);
+               })
+           })
+        </script>
+    </body>
 </html>
